@@ -135,3 +135,17 @@ export default function App() {
     </Authenticator>
   );
 }
+
+echo "# expensetracker" >> README.md
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jawadandall/expensetracker.git
+git push -u origin main
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin git@github.com:jawadandall/expensetracker.git 
+git branch -M main
+git push -u origin main
